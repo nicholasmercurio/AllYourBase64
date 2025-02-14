@@ -1,3 +1,6 @@
+## ⚠️ Disclaimer  
+This script is **not intended for real-world security use** and was created as part of the **Lighthouse Labs Cybersecurity Bootcamp** for educational purposes. Base64 is **not encryption**—if you use it to "secure" sensitive data, you’re doing it wrong.
+
 # 🔐 AllYourBase64.py 🔐  
 **Are belong to us!**  
 
