@@ -1,3 +1,5 @@
+# This script is not intended for real-world security use and was created as part of the Lighthouse Labs Cybersecurity Bootcamp for educational purposes. Base64 is not encryption—if you use it to "secure" sensitive data, you’re doing it wrong.
+
 import base64
 import sys
 
@@ -20,8 +22,7 @@ def main():
         sys.exit(1)
 
     action = sys.argv[1].lower()
-    text = " ".join(sys.argv[2:])  # Join all arguments after the action
-
+    text = " ".join(sys.argv[2:])
     if action == "encode":
         print(f"Encoded Text: {encode_text(text)}")
     elif action == "decode":
